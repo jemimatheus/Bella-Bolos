@@ -152,13 +152,13 @@
             </div>
         </section>
 
-        <div class="container-fluid-Produtos">
-            <h1 id="NossosProdutos" class="text-center fonte-textoMobile pt-0"> Nossos Produtos</h1>
+        <div class="container-fluid-Produtos ">
+            <h1 id="NossosProdutos" class="text-center fonte-textoMobile font-weight-bold pt-0"> Nossos Produtos</h1>
         </div>
         
     
 
-        <!--Cards-->
+        <!--Card Bolos-->
         <section>
             <div class="container-fluid">
                 <div class="row justify-content-around">
@@ -166,7 +166,7 @@
                     <div id="Bolos" class="card borda-card m-3" style="width: 32rem">
                         <img class="card-img-top imagem-card w-30" src="./src/assets/BoloBranco.jpg" alt="Imagem de capa do card">
                         <div class="card-body">
-                            <h5 class="card-title fonte-titulo-card text-center ">BOLOS</h5>
+                            <h5 class="card-title fonte-titulo-card text-center font-weight-bold ">BOLOS</h5>
                             <!-- Botão para acionar modal -->
                             <button type="button" class="btn btn-primary" data-toggle="modal"
                                 data-target="#ModalBolos">Veja mais
@@ -203,6 +203,97 @@
                 </div>
             </div>
         </section> 
+   <!-- Card Doces-->
+   <section>
+    <div class="container-fluid">
+        <div class="row justify-content-around">
+            <!--Doces-->
+            <div id="Doces" class="card borda-card m-3" style="width: 32rem">
+                <img class="card-img-top imagem-card w-30" src="./src/assets/maes.jpeg" alt="Imagem de capa do card com brigadeiros">
+                <div class="card-body">
+                    <h5 class="card-title fonte-titulo-card text-center font-weight-bold ">DOCES</h5>
+                    <!-- Botão para acionar modal -->
+                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                        data-target="#ModalDoces">Veja mais
+                    </button>
+
+                    <!-- Modal Doces -->
+                    <div class="modal fade" id="ModalDoces" tabindex="-1" role="dialog"
+                        aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="TituloModalCentralizado">Outros Doces
+                                    </h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <img class="d-block w-100 imagem-ModalDoces" src="./src/assets/brigadeiros.jpeg" alt="Imagem de brigadeiros"></src>
+                                    <img class="d-block w-100 imagem-ModalDoces" src="./src/assets/brigadeiroscaixa.jpeg" alt="Forma com brigadeiros"></src>
+                                    <img class="d-block w-100 imagem-ModalDoces" src="./src/assets/cocada.jpeg" alt="Cocada Ollaf"></src>
+                                    <img class="d-block w-100 imagem-ModalDoces" src="./src/assets/cupelsa.jpeg" alt="Cupcake Elsa"></src>
+                                    <img class="d-block w-100 imagem-ModalDoces" src="./src/assets/macaolaf.jpeg" alt="Maça do amor Ollaf"></src>
+                                    <img class="d-block w-100 imagem-ModalDoces" src="./src/assets/sortidos.jpeg" alt="Doces Sortidos"></src>
+                                </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-dismiss="modal">Fechar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+       <!-- Card Salgados-->
+   <section>
+    <div class="container-fluid">
+        <div class="row justify-content-around">
+            <!--Salgados-->
+            <div id="Salgados" class="card borda-card m-3" style="width: 32rem">
+                <img class="card-img-top imagem-card w-30" src="./src/assets/coxinha1.jpeg"  alt="Imagem de Coxinhas de frango">
+                <div class="card-body">
+                    <h5 class="card-title fonte-titulo-card text-center font-weight-bold ">SALGADOS</h5>
+                    <!-- Botão para acionar modal -->
+                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                        data-target="#ModalSalgados">Veja mais
+                    </button>
+
+                    <!-- Modal Salgados -->
+                    <div class="modal fade" id="ModalSalgados" tabindex="-1" role="dialog"
+                        aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="TituloModalCentralizado">Outros Salgados
+                                    </h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <img class="d-block w-100 imagem-ModalDoces" src="./src/assets/coxinha2.jpeg" alt="Imagem de Coxinha"></src>
+                                    <img class="d-block w-100 imagem-ModalDoces" src="./src/assets/caixacoxinha.jpeg" alt="Caixa com salgados"></src>
+                                    <img class="d-block w-100 imagem-ModalDoces" src="./src/assets/coxinhamao.jpeg" alt="coxinha na mão"></src>
+                                </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-dismiss="modal">Fechar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>      
     </main> 
 
     <!-- Scripts -->

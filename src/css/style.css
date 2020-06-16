@@ -1,7 +1,7 @@
 body{
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
+    box-sizing: border-box;  
 }
 
 #nav-nav{
@@ -23,18 +23,19 @@ body{
     color: white;
     font-size: 24px;
 }
-
+/* 
 .banner__RedesSociais{
-    display: inline-block;
-}
+    display: flex;
+} */
+
 
 .fab{
     background-color: #804e04;
 }
 
-.background {
-   background-color:#7d7270; 
-}
+/* .background {
+   background-color:#7d7270 ; 
+} */
 
 .imagem-carrossel {
     object-fit: cover;
@@ -51,24 +52,25 @@ body{
 }
 
 .fonte-textoMobile{
-    font-family: 'Indie FLower';
+     font-family: 'Indie FLower';
     font-weight: 400;
-    font-style: normal;
-    font-size: 2em;
+     font-size: 2em;
     color:#2e044b ;
-    padding: 0px    ;
+  
 }
 
 .fonte-texto {
     font-family: 'McLaren', cursive;
     font-weight: 400;
     font-style: normal;
-    color:#2e044b ;
+    color: #2e044b ;
     padding: 0px    ;
 }
 
 .container-fluid-Produtos{
     background-color: #FFDDE9;
+    padding-top: 20px;
+    
 }
 
 article{
@@ -84,8 +86,15 @@ article{
 .btn{
     background-color: #DB7093;
     border-color: #DB7093;
+    margin: auto;
+   
 }
 
+.btn:hover{
+    background-color: #DB7093;
+    border-color: #DB7093;
+    opacity: 0.8;
+}
 .fonte-texto-card-footer {
     font-family: 'McLaren', cursive;
     font-size: 15px;
@@ -117,6 +126,7 @@ article{
 .container-fluid-footer {
     background-color: #FFDDE9;
 }
+
 
 /* 
 
