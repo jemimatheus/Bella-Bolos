@@ -5,13 +5,13 @@ Ramo: Alimentício
 
 
 
-## Tecnologias utilizadas no projeto
-Figma
-HTML
-CSS
-Javascript
-Bootstrap
-Jquery
+# Tecnologias utilizadas no projeto
+- Figma
+- HTML
+- CSS
+- Javascript
+- Bootstrap
+- Jquery
 
 ## Desenvolverdoras
 
