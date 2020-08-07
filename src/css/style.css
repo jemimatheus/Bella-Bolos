@@ -19,6 +19,10 @@ body{
 .dropdown-menu{
   background-color: #DB7093;
 }
+.dropdown-item{
+  background-color: #DB7093 !important;
+  color: white !important;
+}
 
 .banner__conteudo {
     background: url(../assets/Plano\ de\ fundo8.jpg) center no-repeat;
