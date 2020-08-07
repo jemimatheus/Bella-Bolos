@@ -11,7 +11,7 @@ Ramo: Alimentício
 - CSS
 - Javascript
 - Bootstrap
-- Jquery
+
 
 ## Desenvolverdoras
 
