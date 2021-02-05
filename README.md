@@ -13,7 +13,7 @@ Ramo: Alimentício
 - Bootstrap
 
 
-## Desenvolverdoras
+## Desenvolvedoras
 
  Denise Lopes - https://github.com/DeniseL0pes
  
